@@ -8,7 +8,7 @@ body{
     margin: auto;
     height: 200px;
     width: 200px;
-    background-color: red;
+    background-color: rgb(190, 72, 145);
     animation: 
       pulse 3s ease infinite alternate, 
       nudge 5s linear infinite alternate;
@@ -17,7 +17,7 @@ body{
   
   @keyframes pulse {
     0%, 100% {
-      background-color: red;
+      background-color: rgb(185, 67, 189);
     }
     50% {
       background-color: orange;
@@ -90,7 +90,7 @@ body{
   }
   
   @keyframes animation {
-    0%{background: red;}
+    0%{background: rgb(53, 110, 233);}
 
     50%{border-radius: 50%;}
     100%{transform: rotateY(180deg);}
